@@ -1,0 +1,33 @@
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dream Decoder To Numbers</title>
+</head>
+<body>
+  <h1>Dream Decoder To Numbers</h1>
+  <h2>Enter your dream details, and decode them into numbers!</h2>
+  <h3>Who knows, you might just get lucky with it!</h3>
+  <form id="generatorForm">
+    <label for="inputString">Describe your dream:</label>
+    <input type="text" id="inputString" required><br>
+
+    <label for="numberCount">Select the number of digits you want to generate:</label>
+    <select id="numberCount">
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+    </select><br>
+
+    <button type="submit">Generate</button>
+  </form>
+
+  <div id="resultContainer"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

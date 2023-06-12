@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #6bc0c6; /* Change the background color */
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333; /* Change the heading color */
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"], select {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #resultContainer {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  #resultContainer p {
+    margin: 5px 0;
+  }
+  
